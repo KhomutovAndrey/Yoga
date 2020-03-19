@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+// versionCode 4 - Добавлена подсветка элементов при перемещении D&D, исправлены мелкие ошибки
+// versionCode 6 - Исправлена ошибка при добавлении пустой асаны (без изображения), подставляется иконка приложения
+// versionCode 7 - Переработан GUI
+// versionCode 11 - перестроен GUI. добавлен таймер выполнения асан, озвучание асан. начало рефакторинга на MVP
+// versionCode 14 - Исправлена сортировка в наборе через D&D. рефакторинг на MVP
+// versionCode 18 - Добавление новых асан и наборов из ресурсов. Новые асаны. Блок рекламы.
+// versionCode 19 - Исправлена ошибка: отмена выбора изображения при добавлении новой асаны
+
+android {
+    compileSdkVersion 28 //25
+    //buildToolsVersion "23.0.2"
+    defaultConfig {
+        applicationId "com.khomutov_andrey.hom_ai.yoga"
+        minSdkVersion 16
+        targetSdkVersion 28 //23
+        versionCode 19
+        versionName "1.9.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'androidx.appcompat:appcompat:1.0.0' //appcompat-v7:25.1.1
+    implementation 'com.google.android.material:material:1.0.0' //design:25.1.1
+    //implementation 'com.google.android.material.bottomsheet.BottomSheetBehavior'
+    implementation 'androidx.cardview:cardview:1.0.0'//cardview-v7:25.1.1
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'//recyclerview-v7:25.1.1
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'//support-v4:25.1.1
+    //implementation 'com.google.android.gms:play-services-analytics:11.4.2'
+    implementation 'com.google.android.gms:play-services-analytics:17.0.0'
+    //implementation 'com.google.firebase:firebase-core:11.4.2'
+    implementation 'com.google.firebase:firebase-core:17.2.3'
+    implementation 'com.google.firebase:firebase-ads:19.0.0'
+    implementation 'com.google.android.gms:play-services-ads:19.0.0'
+    implementation 'junit:junit:4.12'
+}
+apply plugin: 'com.google.gms.google-services'
