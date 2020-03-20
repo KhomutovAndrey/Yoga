@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="layout_margin_main_screen">5dp</dimen>
+    <dimen name="height_image_main_screen">150dp</dimen>
+    <!-- Размер изображения асаны на экране AssanaActivity-->
+    <dimen name="height_image_asana">300dp</dimen>
+    <!-- Размер изображения элемента индикатора-->
+    <dimen name="width_indicator">20dp</dimen>
+
+    <dimen name="size_basket_image">42dp</dimen><!--  -->
+
+    <!-- относительная связь м-у количеством колонок в гриде и размером рисунка.
+    Используется в layout contetn_assans -->
+    <integer name="number_columns_grid">3</integer>
+    <dimen name="image_assana_height">70dp</dimen>
+    <dimen name="height_linearLayout_top">105dp</dimen> <!-- 1,5 * image_assana_height -->
+
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="margin_button_activity">50dp</dimen>
+    <dimen name="margin_image">10dp</dimen>
+    <dimen name="margin_into_element">3dp</dimen>
+
+    <dimen name="sub_text_size">10sp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <dimen name="text_assana_width">120dp</dimen>
+    <dimen name="margin_bottom_ads">20dp</dimen>
+</resources>

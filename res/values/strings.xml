@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Yoga Конструктор</string>
+    <string name="version">Версия: </string>
+    <string name="action_settings">Settings</string>
+    <string name="query_title">Укажите название</string>
+    <string name="btn_save">Сохранить</string>
+    <string name="btn_cansel">Отменить</string>
+    <string name="title_kit">Набор:</string>
+    <string name="delete_query">Удалить?</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="all_asans">Все асаны</string>
+    <string name="kits_asan">Наборы асан</string>
+    <string name="item_search">Поиск</string>
+
+    <string-array name="slognost">
+        <item>Уровень 1</item>
+        <item>Уровень 2</item>
+        <item>Уровень 3</item>
+    </string-array>
+
+    <!-- Заголовки экранов -->
+    <string name="title_activity_assans">Асаны</string>
+    <string name="title_activity_kits">Наборы асан</string>
+    <string name="title_activity_kit">Редактор набора</string>
+    <string name="title_activity_asana_add">Добавить асану</string>
+
+    <!-- ресурсы для AssanaActivity -->
+    <string name="slognost">Сложность</string>
+    <string name="time">Длительность: </string>
+    <string name="title">Название</string>
+    <string name="title2">Синоним</string>
+    <string name="content">Описание</string>
+    <string name="positive">Показания</string>
+    <string name="negative">Противопоказания</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+
+    <!-- Сообщения -->
+    <string name="kitAdded">Добавлен набор асан</string>
+    <string name="kit_add_quen">Сохранить новый набор асан?</string>
+    <string name="err_permissions">Ошибка доступа к файлу</string>
+
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kits>
+    <kit title="Для сна">
+        <asana uri="uttanasana"/>
+        <asana uri="pashch"/>
+        <asana uri="shavasana"/>
+    </kit>
+    <kit title="Вечерний комплекс">
+        <asana uri="uttanasana"/>
+        <asana uri="am_virasana"/>
+        <asana uri="amsvanasana"/>
+        <asana uri="dandasana"/>
+        <asana uri="pashch"/>
+        <asana uri="chaturanga_dandasana"/>
+        <asana uri="halasana"/>
+        <asana uri="sarvangasana"/>
+        <asana uri="shavasana"/>
+    </kit>
+    <kit title="Утренний комплекс">
+        <asana uri="vrikshasana"/>
+        <asana uri="amsvanasana"/>
+        <asana uri="virabhadrasana2"/>
+        <asana uri="utkatanasan1"/>
+        <asana uri="halasana"/>
+        <asana uri="sarvangasana"/>
+        <asana uri="shavasana"/>
+    </kit>
+    <kit title="Йога для потенции">
+        <asana uri="um_shvanasana"/>
+        <asana uri="bhujangasana"/>
+        <asana uri="pashch"/>
+        <asana uri="halasana"/>
+        <asana uri="sarvangasana"/>
+    </kit>
+    <kit title="Йога для красивой осанки">
+        <asana uri="tadasana"/>
+        <asana uri="amsvanasana"/>
+        <asana uri="um_shvanasana"/>
+        <asana uri="dandasana"/>
+        <asana uri="pashch"/>
+        <asana uri="bharadvagsana1"/>
+        <asana uri="shavasana"/>
+    </kit>
+    <kit title="10 асан йоги для мужчин">
+        <asana uri="uttanasana"/>
+        <asana uri="virabhadrasana1"/>
+        <asana uri="utkatanasan1"/>
+        <asana uri="amsvanasana"/>
+        <asana uri="um_shvanasana"/>
+        <asana uri="baddha_konasana"/>
+        <asana uri="urdhva_prasarita_padasana"/>
+        <asana uri="sarvangasana"/>
+        <asana uri="sputa_padangushthasana"/>
+        <asana uri="shavasana"/>
+    </kit>
+    <kit title="Для спины">
+        <asana uri="majariasana_1"/>
+        <asana uri="amsvanasana"/>
+        <asana uri="halasana"/>
+        <asana uri="pashch"/>
+        <asana uri="blasana"/>
+        <asana uri="shalabhasana1"/>
+        <asana uri="dhanurasana"/>
+        <asana uri="trikonasana"/>
+    </kit>
+</kits>

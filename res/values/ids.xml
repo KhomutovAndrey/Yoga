@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!-- Уникальные идентификаторы для тэгов-->
+    <item name="tag_position" type="id" />
+    <item name="tag_kit_id" type="id" />
+    <item name="tag_asana_id" type="id"/>
+</resources>

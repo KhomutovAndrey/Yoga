@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_assana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:gravity="center_horizontal"
+    android:keepScreenOn="true"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.khomutov_andrey.hom_ai.yoga.AssanaActivity">
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginBottom="@dimen/margin_bottom_ads"
+        app:adSize="BANNER"
+        app:adUnitId="ca-app-pub-1447571314842399/4392086010" />
+
+    <TextView
+        android:id="@+id/titleKit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mv"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/layoutKitControl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/kitPlayButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/play"
+            android:minWidth="48dip"
+            android:minHeight="48dip" />
+
+        <ToggleButton
+            android:id="@+id/voiceButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/voice_off"
+            android:checked="false"
+            android:minWidth="48dip"
+            android:minHeight="48dip"
+            android:textOff=""
+            android:textOn="" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvAsanaTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/imgAssana"
+        android:layout_width="@dimen/height_image_asana"
+        android:layout_height="@dimen/height_image_asana"
+        android:minHeight="200dip"
+        app:srcCompat="@drawable/amsvanasana" />
+
+
+</LinearLayout>
